@@ -166,6 +166,7 @@ export default function Component() {
       color: "from-rose-600 to-rose-700",
       bgColor: "bg-rose-50",
     },
+    {/*
     {
       icon: Shield,
       title: "Derecho Penal",
@@ -208,6 +209,8 @@ export default function Component() {
       color: "from-amber-600 to-amber-700",
       bgColor: "bg-amber-50",
     },
+
+    */}
   ]
 
   const faqs = [
@@ -271,8 +274,8 @@ export default function Component() {
                 <Scale className="w-7 h-7 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-serif font-bold text-gray-900">Dr. Walter Gallo</h1>
-                <p className="text-xs text-gray-600">Abogado Especialista • Mat. 12345</p>
+                <h1 className="text-xl font-serif font-bold text-gray-900">Estudio Jurídico Walter Gallo</h1>
+                <p className="text-xs text-gray-600">Abogados Especialistas</p>
               </div>
             </div>
 
@@ -355,15 +358,14 @@ export default function Component() {
             </Badge>
 
             <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight text-white animate-in slide-in-from-bottom-4 duration-1000">
-              Su Justicia es
+              Derecho
               <span className="block bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-                Nuestra Misión
+                Argentino
               </span>
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed animate-in slide-in-from-bottom-4 duration-1000 delay-200">
-              Asesoramiento legal integral con compromiso, experiencia y resultados comprobados. Defendemos sus derechos
-              con la excelencia que usted merece.
+              Asesoramiento legal integral con compromiso, experiencia y resultados comprobados.             
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-in slide-in-from-bottom-4 duration-1000 delay-400">
@@ -389,8 +391,8 @@ export default function Component() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 mt-16 animate-in slide-in-from-bottom-4 duration-1000 delay-600">
               {[
-                { number: "500+", label: "Casos Exitosos" },
-                { number: "98%", label: "Casos Ganados" },
+                { number: "200+", label: "Casos Consolidados" },
+                { number: "25/7", label: "Disponibilidad" },
                 { number: "30+", label: "Años de Experiencia" },
               ].map((stat, index) => (
                 <div
@@ -495,17 +497,15 @@ export default function Component() {
               <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
                 <p>
                   Con más de <strong className="text-slate-800">tres décadas de experiencia</strong> en el ejercicio del
-                  derecho, el Dr. Walter Gallo se ha consolidado como uno de los abogados más respetados en el ámbito
-                  legal argentino.
+                  derecho.
                 </p>
                 <p>
-                  Su compromiso inquebrantable con la{" "}
+                  Compromiso inquebrantable con la{" "}
                   <strong className="text-slate-800">defensa de los derechos</strong> de sus clientes y su búsqueda
-                  constante de la excelencia profesional lo han convertido en una
-                  <strong className="text-slate-800"> referencia indiscutible en el sector legal</strong>.
+                  constante de la excelencia profesional.
                 </p>
                 <p>
-                  Cada caso es abordado con la dedicación y el rigor que merece, brindando
+                  Brindamos dedicación y atención en cada paso, 
                   <strong className="text-slate-800"> asesoramiento integral</strong> y
                   <strong className="text-slate-800"> resultados comprobados</strong> que respaldan la confianza
                   depositada por cientos de clientes a lo largo de su carrera.
@@ -517,8 +517,8 @@ export default function Component() {
                   <Award className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900">Matrícula Profesional N° 12345</div>
-                  <div className="text-sm text-gray-600">Colegio de Abogados de la Ciudad de Buenos Aires</div>
+                  <div className="font-semibold text-gray-900">Matrícula Profesional</div>
+                  <div className="text-sm text-gray-600">Colegio de Abogados de la Ciudad de Córdoba</div>
                 </div>
               </div>
             </div>
@@ -526,8 +526,8 @@ export default function Component() {
             <div className="grid grid-cols-2 gap-6">
               {[
                 { number: "30+", label: "Años de Experiencia", icon: Clock, color: "from-blue-500 to-blue-600" },
-                { number: "500+", label: "Casos Exitosos", icon: CheckCircle, color: "from-green-500 to-green-600" },
-                { number: "98%", label: "Casos Ganados", icon: Award, color: "from-purple-500 to-purple-600" },
+                { number: "200+", label: "Casos consolidados", icon: CheckCircle, color: "from-green-500 to-green-600" },
+                { number: "98%", label: "Aprobación de clientes", icon: Award, color: "from-purple-500 to-purple-600" },
                 { number: "24/7", label: "Disponibilidad", icon: Phone, color: "from-orange-500 to-orange-600" },
               ].map((stat, index) => (
                 <Card
@@ -674,7 +674,7 @@ export default function Component() {
                       </div>
                       <div>
                         <div className="font-semibold">Teléfono</div>
-                        <div className="text-slate-300">+54 9 11 1234-5678</div>
+                        <div className="text-slate-300">+54 351 3 96 2003</div>
                       </div>
                     </div>
 
@@ -684,7 +684,7 @@ export default function Component() {
                       </div>
                       <div>
                         <div className="font-semibold">Email</div>
-                        <div className="text-slate-300">consultas@waltergallo.com.ar</div>
+                        <div className="text-slate-300">waltergalloabogados@gmail.com</div>
                       </div>
                     </div>
 
@@ -697,7 +697,7 @@ export default function Component() {
                         <div className="text-slate-300">
                           Av. Corrientes 1234, Piso 5°
                           <br />
-                          Ciudad Autónoma de Buenos Aires
+                          Ciudad de Córdoba
                         </div>
                       </div>
                     </div>
@@ -709,7 +709,7 @@ export default function Component() {
                       <div>
                         <div className="font-semibold">Horarios de Atención</div>
                         <div className="text-slate-300">
-                          Lunes a Viernes: 9:00 - 18:00
+                          Lunes a Viernes: 8:00 - 19:00
                           <br />
                           Sábados: 9:00 - 13:00
                         </div>
@@ -901,16 +901,16 @@ export default function Component() {
 
               <div className="pt-4 border-t border-slate-700">
                 <p className="text-sm text-slate-400">
-                  Matrícula N° 12345
+                  Matrícula Profesional
                   <br />
-                  Colegio de Abogados de CABA
+                  Colegio de Abogados de la Ciudad de Córdoba
                 </p>
               </div>
             </div>
           </div>
 
           <div className="border-t border-slate-700 mt-12 pt-8 text-center">
-            <p className="text-slate-400">© 2024 Dr. Walter Gallo - Abogado. Todos los derechos reservados.</p>
+            <p className="text-slate-400">© 2022 Dr. Walter Gallo - Abogados. Todos los derechos reservados.</p>
           </div>
         </div>
       </footer>
