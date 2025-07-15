@@ -166,7 +166,7 @@ export default function Component() {
       color: "from-rose-600 to-rose-700",
       bgColor: "bg-rose-50",
     },
-    {/*
+    /*
     {
       icon: Shield,
       title: "Derecho Penal",
@@ -210,7 +210,7 @@ export default function Component() {
       bgColor: "bg-amber-50",
     },
 
-    */}
+    */
   ]
 
   const faqs = [
@@ -661,64 +661,73 @@ export default function Component() {
             {/* Contact Info */}
             <div className="space-y-8">
               <Card className="bg-gradient-to-br from-slate-800 to-slate-700 text-white border-0 shadow-xl">
-                <CardContent className="p-10 space-y-8">
-                  <div className="text-center">
-                    <h3 className="text-2xl font-serif font-bold mb-2">Información de Contacto</h3>
-                    <p className="text-slate-300">Estamos aquí para ayudarle</p>
-                  </div>
+  <CardContent className="p-10 space-y-8">
+    <div className="text-center">
+      <h3 className="text-2xl font-serif font-bold mb-2">Información de Contacto</h3>
+      <p className="text-slate-300">Estamos aquí para ayudarle</p>
+    </div>
 
-                  <div className="space-y-6">
-                    <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
-                        <Phone className="w-6 h-6 text-white" />
-                      </div>
-                      <div>
-                        <div className="font-semibold">Teléfono</div>
-                        <div className="text-slate-300">+54 351 3 96 2003</div>
-                      </div>
-                    </div>
+    <div className="space-y-6">
+      {/* Teléfono */}
+      <div className="flex items-center space-x-4 hover:bg-white/20 rounded-lg p-2 transition">
+        <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+          <Phone className="w-6 h-6 text-white" />
+        </div>
+        <div>
+          <div className="font-semibold">Teléfono</div>
+          <a 
+      href="tel:+543513962003"
 
-                    <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
-                        <Mail className="w-6 h-6 text-white" />
-                      </div>
-                      <div>
-                        <div className="font-semibold">Email</div>
-                        <div className="text-slate-300">waltergalloabogados@gmail.com</div>
-                      </div>
-                    </div>
+                          className="text-slate-300">+54 351 3 96 2003</a>
+        </div>
+      </div>
 
-                    <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
-                        <MapPin className="w-6 h-6 text-white" />
-                      </div>
-                      <div>
-                        <div className="font-semibold">Dirección</div>
-                        <div className="text-slate-300">
-                          Av. Corrientes 1234, Piso 5°
-                          <br />
-                          Ciudad de Córdoba
-                        </div>
-                      </div>
-                    </div>
+      {/* Email */}
+      <div className="flex items-center space-x-4 hover:bg-white/20 rounded-lg p-2 transition">
+        <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
+          <Mail className="w-6 h-6 text-white" />
+        </div>
+        <div>
+          <div className="font-semibold">Email</div>
+          <div className="text-slate-300">waltergalloabogados@gmail.com</div>
+        </div>
+      </div>
 
-                    <div className="flex items-center space-x-4">
-                      <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
-                        <Clock className="w-6 h-6 text-white" />
-                      </div>
-                      <div>
-                        <div className="font-semibold">Horarios de Atención</div>
-                        <div className="text-slate-300">
-                          Lunes a Viernes: 8:00 - 19:00
-                          <br />
-                          Sábados: 9:00 - 13:00
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            </div>
+      {/* WhatsApp */}
+      <a
+        href="https://wa.me/543513962003"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center space-x-4 hover:bg-white/20 rounded-lg p-2 transition"
+      >
+        <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center">
+          <MessageCircle className="w-6 h-6 text-white" />
+        </div>
+        <div>
+          <div className="font-semibold">WhatsApp</div>
+          <div className="text-slate-300">+54 351 3 96 2003</div>
+        </div>
+      </a>
+
+      {/* Instagram */}
+      <a
+        href="https://www.instagram.com/waltergalloabogados"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center space-x-4 hover:bg-white/20 rounded-lg p-2 transition"
+      >
+        <div className="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center">
+          <Instagram className="w-6 h-6 text-white" />
+        </div>
+        <div>
+          <div className="font-semibold">Instagram</div>
+          <div className="text-slate-300">@waltergalloabogados</div>
+        </div>
+      </a>
+    </div>
+  </CardContent>
+</Card>
+           </div>
 
             {/* Contact Form */}
             <div>
