@@ -254,7 +254,7 @@ export default function Component() {
           <Button
             size="lg"
             className="rounded-full w-16 h-16 bg-green-500 hover:bg-green-600 shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-110"
-            onClick={() => window.open("https://wa.me/5491112345678", "_blank")}
+            onClick={() => window.open("https://wa.me/543516506273", "_blank")}
           >
             <MessageCircle className="w-8 h-8 text-white" />
           </Button>
@@ -676,9 +676,9 @@ export default function Component() {
         <div>
           <div className="font-semibold">Teléfono</div>
           <a 
-      href="tel:+543513962003"
+      href="tel:+543516506273"
 
-                          className="text-slate-300">+54 351 3 96 2003</a>
+                          className="text-slate-300">+54 351 6 50 6273</a>
         </div>
       </div>
 
