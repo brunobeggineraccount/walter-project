@@ -392,7 +392,7 @@ export default function Component() {
             <div className="grid grid-cols-3 gap-4 mt-16 animate-in slide-in-from-bottom-4 duration-1000 delay-600">
               {[
                 { number: "200+", label: "Casos Consolidados" },
-                { number: "25/7", label: "Disponibilidad" },
+                { number: "24/7", label: "Disponibilidad" },
                 { number: "30+", label: "Años de Experiencia" },
               ].map((stat, index) => (
                 <div
