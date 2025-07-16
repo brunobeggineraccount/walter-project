@@ -705,7 +705,7 @@ export default function Component() {
         </div>
         <div>
           <div className="font-semibold">WhatsApp</div>
-          <div className="text-slate-300">+54 351 3 96 2003</div>
+          <div className="text-slate-300">+54 351 6 50 6273</div>
         </div>
       </a>
 
