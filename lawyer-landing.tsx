@@ -695,7 +695,7 @@ export default function Component() {
 
       {/* WhatsApp */}
       <a
-        href="https://wa.me/543513962003"
+        href="https://wa.me/543516506273"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center space-x-4 hover:bg-white/20 rounded-lg p-2 transition"
