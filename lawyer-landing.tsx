@@ -291,8 +291,7 @@ export default function Component() {
                 onClick={() => scrollToSection("contacto")}
                 className="bg-gradient-to-r from-slate-800 to-slate-700 hover:from-slate-700 hover:to-slate-600 text-white px-6 py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
-                Consulta Gratuita
-              </Button>
+                Consulta              </Button>
             </div>
 
             {/* Mobile Menu Button */}
@@ -321,7 +320,7 @@ export default function Component() {
                   onClick={() => scrollToSection("contacto")}
                   className="w-full bg-gradient-to-r from-slate-800 to-slate-700 text-white rounded-full"
                 >
-                  Consulta Gratuita
+                  Realice Consulta
                 </Button>
               </div>
             </div>
@@ -361,14 +360,16 @@ export default function Component() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-in slide-in-from-bottom-4 duration-1000 delay-400">
+              <a href="https://wa.me/543516506273">
               <Button
                 size="lg"
-                onClick={() => scrollToSection("contacto")}
+                //onClick={() => scrollToSection("contacto")}
                 className="group bg-white text-slate-800 hover:bg-gray-100 px-8 py-4 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105"
               >
-                Solicitar Consulta Gratuita
+                Solicitar Consulta
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
+              </a>
               <Button
                 size="lg"
                 variant="outline"
@@ -383,7 +384,6 @@ export default function Component() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-4 mt-16 animate-in slide-in-from-bottom-4 duration-1000 delay-600">
               {[
-                { number: "200+", label: "Casos Consolidados" },
                 { number: "24/7", label: "Disponibilidad" },
                 { number: "30+", label: "Años de Experiencia" },
               ].map((stat, index) => (
@@ -518,8 +518,6 @@ export default function Component() {
             <div className="grid grid-cols-2 gap-6">
               {[
                 { number: "30+", label: "Años de Experiencia", icon: Clock, color: "from-blue-500 to-blue-600" },
-                { number: "200+", label: "Casos consolidados", icon: CheckCircle, color: "from-green-500 to-green-600" },
-                { number: "98%", label: "Aprobación de clientes", icon: Award, color: "from-purple-500 to-purple-600" },
                 { number: "24/7", label: "Disponibilidad", icon: Phone, color: "from-orange-500 to-orange-600" },
               ].map((stat, index) => (
                 <Card
@@ -645,7 +643,7 @@ export default function Component() {
               ¿Listo para Ejercer sus Derechos?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Contáctenos hoy mismo para una consulta gratuita y sin compromiso. Su tranquilidad es nuestra prioridad.
+              Contáctenos hoy mismo para una consulta. Su tranquilidad es nuestra prioridad.
             </p>
           </div>
 
@@ -727,8 +725,7 @@ export default function Component() {
               <Card className="bg-white border-0 shadow-xl">
                 <CardHeader className="text-center">
                   <CardTitle className="text-2xl font-serif font-bold text-gray-900">
-                    Solicite su Consulta Gratuita
-                  </CardTitle>
+                    Solicite su Consulta                  </CardTitle>
                   <p className="text-gray-600">Complete el formulario y nos pondremos en contacto a la brevedad</p>
                 </CardHeader>
 
@@ -804,8 +801,7 @@ export default function Component() {
                       type="submit"
                       className="w-full bg-gradient-to-r from-slate-800 to-slate-700 text-white py-3 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
                     >
-                      Enviar Consulta Gratuita
-                    </Button>
+                      Enviar Consulta                    </Button>
 
                     <p className="text-sm text-gray-500 text-center">
                       * Campos obligatorios. Sus datos están protegidos por nuestro compromiso de confidencialidad.
