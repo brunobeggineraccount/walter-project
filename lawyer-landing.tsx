@@ -143,11 +143,11 @@ export default function Component() {
       title: "Derecho Civil",
       description: "Asesoramiento integral en todas las ramas del derecho civil con resultados comprobados.",
       services: [
+        "Declaratoria y Sucesiones",
         "Contratos civiles y comerciales",
         "Daños y perjuicios",
         "Responsabilidad civil",
-        "Sucesiones y testamentos",
-        "Derechos reales y propiedad",
+        "Derechos reales",
       ],
       color: "from-emerald-600 to-emerald-700",
       bgColor: "bg-emerald-50",
@@ -157,30 +157,27 @@ export default function Component() {
       title: "Derecho de Familia",
       description: "Acompañamiento profesional y humano en los momentos más delicados de la vida familiar.",
       services: [
-        "Divorcios y separaciones",
-        "Tenencia y régimen de visitas",
+        "Divorcios - Compensación Económica",
         "Cuota alimentaria",
-        "Adopciones",
         "Violencia familiar",
       ],
       color: "from-rose-600 to-rose-700",
       bgColor: "bg-rose-50",
     },
-    /*
     {
       icon: Shield,
-      title: "Derecho Penal",
-      description: "Defensa penal especializada con estrategias personalizadas para cada caso.",
+      title: "Empresas en Crisis",
+      description: "Ofrecemos acompañamiento y soluciones efectivas a empresas en crisis familiares y unipersonales.",
       services: [
-        "Defensa en causas penales",
-        "Excarcelaciones y eximiciones",
-        "Recursos de apelación",
-        "Querella por calumnias e injurias",
-        "Delitos económicos",
+        "Financiamientos",
+        "Negociaciones para procesos en crisis",
+        "Propuesta de compra y venta",
       ],
       color: "from-red-600 to-red-700",
       bgColor: "bg-red-50",
     },
+
+    /*
     {
       icon: Building,
       title: "Derecho Comercial",
@@ -217,34 +214,29 @@ export default function Component() {
     {
       question: "¿Cuánto cuesta la primera consulta?",
       answer:
-        "La primera consulta es completamente gratuita y sin compromiso. Durante esta reunión evaluaremos su caso y le brindaremos un panorama claro de las opciones legales disponibles.",
+        "Dependiendo de la complejidad, dedicación e inmediaztez, elaboramos un presupuesto con tu consulta incluida respetando las normas legales de la colegiación.",
     },
     {
       question: "¿Cuánto tiempo demora un juicio laboral?",
       answer:
-        "Los tiempos varían según la complejidad del caso y la carga de trabajo de los tribunales. En promedio, un juicio laboral puede demorar entre 12 a 24 meses, aunque trabajamos para acelerar los procesos cuando es posible.",
+        "Los tiempos varían según la complejidad del caso y la carga de trabajo de los tribunales. En promedio, un juicio laboral puede demorar entre 12 a 60 meses, aunque trabajamos para acelerar los procesos cuando es posible.",
     },
     {
       question: "¿Qué documentación necesito para una consulta?",
       answer:
-        "Para una primera consulta, traiga toda la documentación relacionada con su caso: contratos, recibos de sueldo, telegramas, certificados médicos, etc. Si no tiene algún documento, no se preocupe, lo orientaremos sobre cómo obtenerlo.",
+        "Para una primera consulta, traiga toda la documentación relacionada con su caso. Si no tiene algún documento, no se preocupe, lo orientaremos sobre cómo obtenerlo.",
     },
     {
       question: "¿Trabajan con el sistema de honorarios por resultado?",
       answer:
-        "Sí, en casos laborales y de daños y perjuicios ofrecemos la modalidad de honorarios por resultado (cuota litis), donde usted solo paga si ganamos el caso. Consultenos sobre esta opción en su primera entrevista.",
+        "Sí, dependiendo del reclamo a realizar. Consultenos sobre esta opción en su primera entrevista.",
     },
     {
       question: "¿Atienden casos en el interior del país?",
       answer:
-        "Sí, atendemos casos en todo el territorio nacional. Para casos en el interior, coordinamos las estrategias desde Buenos Aires y trabajamos con corresponsales locales cuando es necesario.",
+        "Sí, atendemos casos en todo el territorio nacional. Para casos en el interior, coordinamos las estrategias desde Buenos Aires y trabajamos con corresponsales en otras provincias cuando es necesario.",
     },
-    {
-      question: "¿Qué pasa si pierdo el juicio?",
-      answer:
-        "En caso de una sentencia desfavorable, analizamos la viabilidad de interponer recursos de apelación. Nuestro compromiso es agotar todas las instancias legales disponibles para defender sus derechos.",
-    },
-  ]
+     ]
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -354,13 +346,13 @@ export default function Component() {
           <div className="max-w-4xl">
             <Badge className="mb-6 bg-white/10 text-white border-white/20 hover:bg-white/20 transition-all duration-300">
               <Award className="w-4 h-4 mr-2" />
-              Más de 30 Años Defendiendo sus Derechos
+              MP 1-29253 | MF T°500 F°89
             </Badge>
 
             <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight text-white animate-in slide-in-from-bottom-4 duration-1000">
-              Derecho
+              WALTER GALLO
               <span className="block bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
-                Argentino
+                Abogados
               </span>
             </h1>
 
@@ -431,7 +423,7 @@ export default function Component() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {practiceAreas.map((area, index) => (
               <Card
                 key={index}
@@ -650,7 +642,7 @@ export default function Component() {
           <div className="text-center mb-20">
             <Badge className="mb-4 bg-gradient-to-r from-slate-800 to-slate-600 text-white">Contacto Directo</Badge>
             <h2 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-6">
-              ¿Listo para Defender sus Derechos?
+              ¿Listo para Ejercer sus Derechos?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Contáctenos hoy mismo para una consulta gratuita y sin compromiso. Su tranquilidad es nuestra prioridad.
@@ -711,7 +703,8 @@ export default function Component() {
 
       {/* Instagram */}
       <a
-        href="https://www.instagram.com/waltergalloabogados"
+        //href="https://www.instagram.com/waltergalloabogados"
+        href="."
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center space-x-4 hover:bg-white/20 rounded-lg p-2 transition"
